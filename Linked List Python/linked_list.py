@@ -57,7 +57,7 @@ class LinkedList:
     def print(self):
         """Prints the linked list."""
         index_node = self.head
-        while index_node.next is not None:
+        while index_node is not None:
             print(index_node.get_value())
             index_node = index_node.next
 
