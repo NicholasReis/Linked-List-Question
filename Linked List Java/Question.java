@@ -12,7 +12,5 @@ public class Question{
         ll.append(4);
         ll.append(5);
         
-        System.out.println(ll.size());
-        System.out.println(ll.size());
     }
 }
